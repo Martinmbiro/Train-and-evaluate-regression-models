@@ -1,15 +1,15 @@
 # Train and Evaluate Machine Learning Regression Models
 
 <p align="center">
-  <img src='pics/bikes.svg'  width='700'/>
+  <img src='pics/bikes.svg'  width='530'/>
 </p>
 
 Hello again 👋
-+ This repository involves training a Machine Learning Regression Model to predict the number bicycle rentals, given prevailing weather conditions for a particular day  
-+ It is my own implementation of a course I've taken on creating and evaluating machine learning regression models  
-+ I have included notes and comments to express my thought process and understanding. Links to official documentation are also attached.
++ This repository involves training a Machine Learning Regression Model to predict the number of bicycle rentals, given prevailing weather conditions for a particular day  
++ It is my implementation of a course I've taken on creating and evaluating Machine Learning Regression Models  
++ I have included notes and comments to express my understanding. Links to official documentation are also attached.
 + I've implemented novel concepts (that I've learned on my own) too, such as [`optuna`](https://optuna.readthedocs.io/en/stable/index.html) for hyperparameter search, `early_stopping` and `eval_set` to control overfitting and [`cross_val_score`](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html) during training rounds to identify the best model.
-+ And what do you know, the final model, based on the given dataset outperformed the model trained in the course.
++ And what do you know, my final model (included in the `model` folder), outperformed the model trained in the course - by far!
 
 
 ## Milestones 🏁
@@ -25,13 +25,13 @@ Hello again 👋
 
 ## Tools ⚒️
 1. [`Google Colab`](https://colab.google/) - A hosted Jupyter Notebook service by Google.
-2. [`matplotlib`](https://matplotlib.org/) - A comprehensive library for making static, animated, and interactive visualizations in Python.
-3. [`pandas`](https://pandas.pydata.org/docs/index.html) - An open-source data analysis and manipulation tool built on top of Python programming language.
+2. [`matplotlib`](https://matplotlib.org/) - A comprehensive library for making static, animated, and interactive visualizations in Python
+3. [`pandas`](https://pandas.pydata.org/docs/index.html) - An open-source data analysis and manipulation tool built on Python
 4. [`scikit-learn`](https://scikit-learn.org/stable/#) - A free open-source library that offers machine learning tools for the Python programming language
 5. [`xgboost`](https://xgboost.readthedocs.io/en/stable/index.html) - An optimized distributed gradient boosting library that implements machine learning algorithms under the Gradient Boosting framework
-6. [`LightGBM`](https://lightgbm.readthedocs.io/en/stable/index.html) - LightGBM is a gradient boosting framework that uses tree based learning algorithms
+6. [`LightGBM`](https://lightgbm.readthedocs.io/en/stable/index.html) - LightGBM is a gradient-boosting framework that uses tree-based learning algorithms
 7. [`optuna`](https://optuna.readthedocs.io/en/stable/index.html) - An automatic hyperparameter optimization software framework designed for machine learning
 
 
 ## Reference 📚
-+ All thanks to the [`Microsoft Learn`](https://learn.microsoft.com/en-us/) module linked [`here`](https://learn.microsoft.com/en-us/users/martinmuriithi-6560/achievements/9fyc4y7u) and [`emojis`](https://gist.github.com/FlyteWizard/468c0a0a6c854ed5780a32deb73d457f) 😸😸😸
++ All thanks to the [`Microsoft Learn`](https://learn.microsoft.com/en-us/) module linked [`here`](https://learn.microsoft.com/en-us/users/martinmuriithi-6560/achievements/9fyc4y7u), not forgetting the [`emojis`](https://gist.github.com/FlyteWizard/468c0a0a6c854ed5780a32deb73d457f) 😸😸😸
